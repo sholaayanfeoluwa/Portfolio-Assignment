@@ -14,19 +14,18 @@ header {
     align-items: center;
     text-align: justify;
     background-color: #F1F5FE;
-    padding:16px 120px;
+    padding-left: 129.84px;
+    padding-right: 84.5px;
     
 }
 
 .sec1 {
-   
     display: flex;
     align-items: center;
     text-align: start;
    justify-content: space-between;
     color: #A3A3A3;
     background-color: #000000;
-
     padding:56px 120px 0;
 }
 
@@ -47,6 +46,7 @@ nav button {
     padding: 10px 16px;
     border: 1px solid #155EEF;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .sec1 button {
@@ -54,6 +54,10 @@ nav button {
     padding: 10px 16px;
     border: 1px solid #155EEF;
     border-radius: 8px;
+}
+
+.text {
+    padding-bottom: 98px;
 }
 
 .sec1 h2 {
@@ -68,6 +72,7 @@ nav button {
     font-weight: 500;
     font-family:  'Manrope', sans-serif;
     margin-bottom: 8px;
+    margin-right: 90px;
 }
 
 .sec1 button {
@@ -77,6 +82,7 @@ nav button {
     background-color: blue;
     color: #FFFFFF;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 a {
@@ -132,6 +138,7 @@ a {
 .butt {
     padding-left: 157px;
     padding-top: 42px;
+    
 }
 
 .blue {
@@ -141,7 +148,8 @@ a {
     padding-left: 37px;
     padding-right: 37px;
     padding-bottom: 5px;
-    margin-right: 32px;
+    margin-right: 5px;
+    cursor: pointer;
     
 }
 
@@ -152,6 +160,7 @@ a {
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
+    cursor: pointer;
     
 }
 
@@ -165,21 +174,20 @@ a {
 
 .icon{
     display:flex;
-    gap:103px;
     align-items:center;
+    gap: 20px;
+    cursor: pointer;
 }
 
 footer {
     display: flex;
     align-items: center;
-    justify-content: space-around;
     text-align: center;
+    gap: 350px;
    
 }
 
-.resize {
-    width: 20px;
-}
+
 
 .input {
     color: white;
