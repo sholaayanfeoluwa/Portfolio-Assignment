@@ -172,37 +172,41 @@ a {
 
 .foot {
     background-color: #000000;
-    padding: 17px 0px 17px 129.84px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-around;
    
 }
 
-.icon{
-    display:flex;
-    align-items:center;
-    gap: 20px;
+.icon {
     cursor: pointer;
 }
 
-footer {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    gap: 300px;
-   
+.resize2 {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-
+.push {
+    align-items: center;
+}
 
 .input {
     color: white;
     font-size: 1rem;
     font-family: 'manrope';
     font-weight: 500px;
-    padding-top: 0px;
+    padding-bottom: 0px;
     
 }
 
 @media screen and (max-width:900px) {
+    header {
+        padding-left: 22.9px;
+        padding-right: 19px;
+    }
+    
     .sec1 {
         display: grid;
 
@@ -320,26 +324,7 @@ footer {
         display: none;
     }
 
-    .foot {
-        display: inline-block;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        width: 100%;
-        padding: 0;
-        gap: 0px;
-       
-    }
-
-    .flex {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        text-align: center;
-        padding: 0; 
     
-    }
-
     nav {
         display: none;
     }
@@ -348,10 +333,30 @@ footer {
         display: flex;
     }
 
-    header {
-        padding-left: 22.9px;
-        padding-right: 19px;
+    .foot {
+        position: relative;
+        height: 100px;
+        padding: 0;
+        gap: 0px;
+        justify-content: space-around;
+       
     }
+
+    .icon {
+        padding-left: 80px;
+    }
+
+    .lr {
+        width: 200px;
+        padding-left: 20px;
+    }
+
     
-    
+
+    .input {
+        position: absolute;
+        padding-top: 100px;
+        padding-left: 120px;
+        padding-bottom: 40px;
+    }
 }
