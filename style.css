@@ -19,6 +19,10 @@ header {
     
 }
 
+.nav-logo {
+    display: none;
+}
+
 .sec1 {
     display: flex;
     align-items: center;
@@ -198,3 +202,156 @@ footer {
     
 }
 
+@media screen and (max-width:900px) {
+    .sec1 {
+        display: grid;
+
+        grid-template-columns: 1fr;
+        grid-template-rows: ;
+    
+
+        grid-gap:30px;
+        
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+    
+    }
+
+    #item1 {
+        order: 2;
+    }
+
+    #item2 {
+        order: 1;
+    }
+
+    .text{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 16px;
+            
+    }
+    .BG {
+        font-family: halant;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        text-align: center;
+    }
+
+    .sec1 p {
+        margin-right: 0;
+    }
+
+    .sec1 h2 {
+        font-family: halant;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28.8px;
+        text-align: center;
+    }
+
+    .info {
+        font-family: manrope;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 40px;
+        letter-spacing: 0.9px;
+        text-align: center;
+        color: #A3A3A3;
+
+    }
+
+    .sec1 button {
+        display: block;
+        padding: 10px, 16px, 10px, 16px;
+        width: 100%;
+        height: 44px;
+    }
+
+        
+   
+    .sec2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0;
+        
+    }
+
+    .sec2 p {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+    }
+
+    .sec2 h3 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 38px;
+        padding-top: 16px;
+        padding-bottom: 8px;
+    }
+
+    .sec2 p, .butt, .sec2 h3 {
+        padding-left: 0px;
+    }
+
+    .bm {
+        display:block;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .butt {
+        padding-top: 10px;
+        padding-bottom: 20px;
+
+    }
+
+
+
+    #img {
+        display: none;
+    }
+
+    .foot {
+        display: inline-block;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+        gap: 0px;
+       
+    }
+
+    .flex {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        padding: 0; 
+    
+    }
+
+    nav {
+        display: none;
+    }
+
+    .nav-logo {
+        display: flex;
+    }
+
+    header {
+        padding-left: 22.9px;
+        padding-right: 19px;
+    }
+    
+    
+}
